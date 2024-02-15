@@ -1,17 +1,17 @@
 import { sql } from 'drizzle-orm'
 import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core'
-export const youtube_video =
+export const youtube_video_tbl =
 	sqliteTable('youtube_video', {
 		videoId: text('videoId').notNull().primaryKey(),
-		create_ms:
-			integer('create_ms', { mode: 'timestamp_ms' })
+		create_dts:
+			integer('create_dts', { mode: 'timestamp_ms' })
 				.notNull()
 				.default(sql`CURRENT_TIMESTAMP`),
-		published_ms:
-			integer('published_ms', { mode: 'timestamp_ms' })
+		publishedAt:
+			integer('publishedAt', { mode: 'timestamp_ms' })
 				.notNull(),
-		updated_ms:
-			integer('updated_ms', { mode: 'timestamp_ms' })
+		updatedAt:
+			integer('updatedAt', { mode: 'timestamp_ms' })
 				.notNull(),
 		channelId: text('channelId').notNull(),
 		author_name: text('author_name').notNull(),
