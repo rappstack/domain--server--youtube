@@ -35,14 +35,14 @@
 	],
 	"dependencies": {
 		"@rappstack/domain--server": "workspace:*",
-		"ctx-core": "^6.5.3",
+		"ctx-core": "^6.5.4",
 		"drizzle-kit": "^0.20.14",
-		"drizzle-orm": "^0.29.4"
+		"drizzle-orm": "^0.29.5"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
 	},
 	"peerDependencies": {
-		"typescript": "^5.3.3"
+		"typescript": "^5.4.2"
 	}
 }
