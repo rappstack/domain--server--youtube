@@ -37,7 +37,7 @@
 		"@rappstack/domain--server": "workspace:*",
 		"ctx-core": "^6.7.0",
 		"drizzle-kit": "^0.20.14",
-		"drizzle-orm": "^0.30.4"
+		"drizzle-orm": "^0.30.5"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
