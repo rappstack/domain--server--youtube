@@ -35,7 +35,7 @@
 	],
 	"dependencies": {
 		"@rappstack/domain--server": "workspace:*",
-		"ctx-core": "^7.2.7",
+		"ctx-core": "^7.2.8",
 		"drizzle-kit": "^0.21.1",
 		"drizzle-orm": "^0.30.10"
 	},
