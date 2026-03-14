@@ -1,7 +1,7 @@
 {
 	"name": "@rappstack/domain--server--youtube",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "domain library targeting the server for brookebrodack",
 	"keywords": [
 		"rappstack",
@@ -34,7 +34,7 @@
 		"schema"
 	],
 	"dependencies": {
-		"@rappstack/domain--server": "workspace:*",
+		"@rappstack/domain--server": "^0.1.0",
 		"ctx-core": "^7.2.27",
 		"drizzle-kit": "^0.23.0",
 		"drizzle-orm": "^0.32.0"
